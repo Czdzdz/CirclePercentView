@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cdd.circlepercentview.MainActivity">
+
+    <com.cdd.circlepercentview.CirclePercentView
+        android:id="@+id/cpv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:arcColor="@color/arcColor"
+        app:arcWidth="12dp"
+        app:circleBackground="@color/circleBackground"
+        app:percentTextColor="@color/percentTextColor"
+        app:percentTextSize="24sp"
+        app:radius="100dp"/>
+
+</RelativeLayout>
