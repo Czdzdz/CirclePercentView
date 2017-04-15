@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CirclePercentView</string>
+    <string name="startRun">开启一个定时进度</string>
 </resources>

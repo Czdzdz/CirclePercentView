@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.cdd.circlepercentview.MainActivity">
 
     <com.cdd.circlepercentview.CirclePercentView
         android:id="@+id/cpv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_weight="1"
         app:arcColor="@color/arcColor"
         app:arcWidth="12dp"
         app:circleBackground="@color/circleBackground"
@@ -18,4 +20,13 @@
         app:percentTextSize="24sp"
         app:radius="100dp"/>
 
-</RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:onClick="startTimeRunning"
+        android:text="@string/startRun"
+        android:textSize="16sp"/>
+
+</LinearLayout>
