@@ -111,6 +111,6 @@ public class MainActivity extends AppCompatActivity implements Runnable {
             mTimerTask = null;
         }
 
-        cpv.postInvalidate();
+        curProgress = 0;
     }
 }
